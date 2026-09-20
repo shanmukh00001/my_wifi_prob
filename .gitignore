@@ -1,0 +1,18 @@
+node_modules/
+npm-debug.log*
+
+# Local credential / secret artifacts (never commit)
+*.env
+.env
+credentials.local.json
+
+# Test / debug artifacts
+login-result.png
+*.log
+logs/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
